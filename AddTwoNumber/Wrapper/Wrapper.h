@@ -8,6 +8,7 @@ namespace Wrapper {
 	public:
 		WrapperForCaculatorTwoNumber();
 		~WrapperForCaculatorTwoNumber();
+		int GetSumInCaculatorClass(int iA, int iB);
 	private:
 		Calculator *pCalculator;
 	};
